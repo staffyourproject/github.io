@@ -7,13 +7,12 @@
             <div class="row">
                 <div class="col-md-12">
                      {% if page.featured_image %}
-                        <span class="img" style="background-image: url('{{ site.data.global.url.page.featured_image }}');"></span>
+                        <span class="img" style="background-image: url('{{ page.featured_image }}');"></span>
                         {% endif %}
 
                         {% if post.featured_video_id %}
                         <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
                         {% endif %}
-                        <p>the site URL is: {{ site.data.global.url }}
                 </div>
                 <article>
                     {{ content }}
