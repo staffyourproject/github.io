@@ -1,6 +1,6 @@
 ---
 layout: default
-featured_image: {{ site.data.global.url}}'img/DiversePeopleWorking.jpg'
+featured_image: 'img/DiversePeopleWorking.jpg'
 permalink: /
 ---
 
