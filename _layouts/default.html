@@ -1,0 +1,21 @@
+{% include header.html %}
+
+    {% include title-group.html %} 12
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     {% if page.featured_image %}
+                        <span class="img" style="background-image: url('{{ page.featured_image }}');"></span>
+                        {% endif %}
+
+                        {% if post.featured_video_id %}
+                        <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
+                        {% endif %}
+                </div>
+            </div>
+        </div>
+    </main>
+
+{% include footer.html %}
