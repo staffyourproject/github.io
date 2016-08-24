@@ -6172,5 +6172,7 @@ pre {
     font-size: 22px;
     line-height: 35px; }
 
-  span:before, span:after {
-    height: 0; } }
+  h1.special span:before, h1.special span:after {
+    height: 0;
+    top: 0;
+    width: 0; } }
