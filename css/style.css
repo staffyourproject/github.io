@@ -6159,7 +6159,8 @@ pre {
 @media only screen and (max-width: 480px) {
   .tile .featurette, .topper {
     height: 130px; }
-
+  .title-group {
+    margin: 50px 0 0; }
   h1.special,
   .tile h2 {
     font-size: 40px;
