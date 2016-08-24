@@ -6170,4 +6170,7 @@ pre {
 
   .tile .excerpt {
     font-size: 22px;
-    line-height: 35px; } }
+    line-height: 35px; }
+
+  span:before, span:after {
+    height: 0; } }
