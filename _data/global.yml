@@ -1,7 +1,7 @@
 # Site Settings
 title: 'Staff Your Position'
 description: ''
-url: 'https://staffyourproject.github.io/github.io/' #'http://staffyourposition-io.github.io' # the base hostname & protocol for your site
+url: 'https://staffyourproject.github.io/' #'http://staffyourposition-io.github.io' # the base hostname & protocol for your site
 footer_text: 'Footer text can go here'
 
 # Admin Settings
